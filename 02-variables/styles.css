@@ -1,0 +1,22 @@
+:root {
+  --mi-variable: yellow;
+  --font: Verdana;
+  --font-size: 35px;
+}
+
+h1 {
+  color: var(--mi-variable);
+  font-family: var(--font);
+  font-size: var(--font-size);
+}
+p {
+  font-family: var(--font);
+}
+
+a {
+  color: var(--mi-variable);
+}
+
+h3 {
+  font-size: var(--font-size);
+}
