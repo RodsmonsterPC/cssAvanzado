@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Estilos -->
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+
+    <title>Portafolio - Rodolfo Pérez</title>
+  </head>
+  <body>
+    <!-- Layout principal -->
+    <div class="layout">
+      <!-- Barra lateral (info del usuario) -->
+      <aside class="layout__aside">
+        <sectiion class="aside__user-info">
+          <!-- Informacion general usuario -->
+          <div class="user-info__general">
+            <div class="user-info__container-image">
+              <img
+                src="assets/img/default-user.jpg"
+                class="user-info__image"
+                alt="imagen de usuario"
+              />
+            </div>
+            <h2 class="user-info__name">Rodolfo Pérez</h2>
+            <h4 class="user-info__job">Desarrolador Web</h4>
+          </div>
+          <!-- Menu de navegacion -->
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-house"></i>
+                  <span class="menu__overlay">Home</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre mi</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="curriculum.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">Curriculum</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="portafolio.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portafolio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="blog.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-book"></i>
+                  <span class="menu__overlay">Blog</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="contacto.html" class="menu__link menu__link--active">
+                  <i class="menu__icon fa-solid fa-envelope"></i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Links redes sociales -->
+          <div class="user-info__links">
+            <ul class="links__social">
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Boton del curriculum -->
+          <div class="user-info__buttons">
+            <a href="#" class="user-info__btn">Descargar CV</a>
+          </div>
+          <!-- Pie de pagina -->
+          <footer class="user-info__footer">&copy; 2024 Rodolfo Pérez</footer>
+        </sectiion>
+      </aside>
+
+      <!-- Contenido Principal -->
+      <main class="layout__content">
+        <section class="content__page content__contact">
+          <!-- Este contenido cambian en cada pagina del sitio web -->
+          <header class="contact__header">
+            <h1 class="contact__title">Contacto</h1>
+          </header>
+
+          <div class="contact__container">
+            <section class="contact__info">
+              <div class="contact__data">
+                <i class="contact__icon fa-solid fa-location-dot"></i>
+                <h2 class="contact__subtitle">Madrid</h2>
+              </div>
+              <div class="contact__data">
+                <i class="contact__icon fa-solid fa-phone"></i>
+                <h2 class="contact__subtitle">666 777 888</h2>
+              </div>
+              <div class="contact__data">
+                <i class="contact__icon fa-solid fa-envelope"></i>
+                <h2 class="contact__subtitle">rodolfo.perez01@iest.edu.mx</h2>
+              </div>
+              <div class="contact__data">
+                <i class="contact__icon fa-solid fa-circle-check"></i>
+                <h2 class="contact__subtitle">Desarrollador freelance</h2>
+              </div>
+            </section>
+            <section class="contact__formbox">
+              <div class="contact__map">
+                <!-- <iframe
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.216219200805!2d-97.89117552410261!3d22.307661042627423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7fbc1f66c7fb5%3A0xf00d16fac8894706!2s1%20de%20Mayo%20315%2C%202%20de%20Junio%2C%2089327%20Tampico%2C%20Tamps.!5e0!3m2!1ses!2smx!4v1716492174737!5m2!1ses!2smx"
+                ></iframe> -->
+              </div>
+              <header class="contact__form-header">
+                <h3 class="contact__subtitle">
+                  ¿Como puedo <span class="subtitle__color">Ayudarte?</span>
+                </h3>
+              </header>
+
+              <form class="contact__form" action="">
+                <div class="form__container">
+                  <section class="form__left">
+                    <div class="form__group">
+                      <input
+                        type="text"
+                        class="form__input"
+                        name="name"
+                        required
+                        placeholder="Nombre"
+                      />
+                      <label for="name" class="form__label">Nombre</label>
+                      <input
+                        type="text"
+                        class="form__input"
+                        name="email"
+                        required
+                        placeholder="Correo"
+                      />
+                      <label for="email" class="form__label">Correo</label>
+                      <input
+                        type="text"
+                        class="form__input"
+                        name="subject"
+                        required
+                        placeholder="Asunto"
+                      />
+                      <label for="subject" class="form__label">Asunto</label>
+                    </div>
+                  </section>
+                  <section class="form__right">
+                    <textarea
+                      class="form__input form::input--textarea"
+                      name="message"
+                      required
+                      placeholder="Mensaje"
+                    ></textarea>
+                    <label for="message" class="form__label">Mensaje</label>
+                  </section>
+
+                  <input
+                    type="submit"
+                    class="form__button"
+                    value="Enviar Mensaje"
+                  />
+                </div>
+              </form>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
