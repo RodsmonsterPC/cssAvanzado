@@ -19,7 +19,7 @@
 
 /* Estilos Generales */
 html {
-  font-size: 10px;
+  font-size: 62.5%; /* equivalente a 10px */
 }
 
 body {
@@ -220,7 +220,7 @@ body {
   display: block;
   position: absolute;
   top: 0;
-  right: -50px;
+  right: -5rem;
   min-height: 11rem;
   background-color: var(--color-transparent);
 }
@@ -313,10 +313,10 @@ body {
 .contact__title::after {
   content: "";
   position: absolute;
-  top: 20px;
-  right: -25px;
-  width: 50px;
-  height: 30px;
+  top: 2rem;
+  right: -2.5rem;
+  width: 5rem;
+  height: 3rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -404,10 +404,10 @@ body {
 .form-header__title::after {
   content: "";
   position: absolute;
-  top: 15px;
-  right: 0px;
-  width: 30px;
-  height: 20px;
+  top: 1.5rem;
+  right: 0;
+  width: 3rem;
+  height: 2rem;
   background-image: -webkit-repeating-radial-gradient(
     center center,
     var(--color-secundario),
@@ -545,7 +545,7 @@ body {
 }
 
 .clients__image {
-  width: 145px;
+  width: 14.5rem;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -747,7 +747,7 @@ body {
   position: absolute;
   top: 0;
   left: 30%;
-  bottom: -18px;
+  bottom: -1.8rem;
   width: 1px;
   background-color: var(--color-background-scrollbar);
 }
