@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Carag de fuentes -->
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.css"
+    />
+    <link rel="stylesheet" href="./assets/fonts/montserrat/montserrat.css" />
+    <!-- Carga de estilos -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- Cargar javascript -->
+    <title>Noticias de videojuegos</title>
+  </head>
+  <body>
+    <!-- Barra superior decorativa -->
+    <div class="decoration-bar"></div>
+
+    <!-- Estructura principal -->
+    <div class="layout">
+      <!-- Cabecera -->
+      <header class="layout__header">
+        <div class="header__title">
+          <a href="#" class="header__link">
+            <img src="./assets/img/logo1.png" alt="Logo" class="header__img" />
+          </a>
+        </div>
+      </header>
+      <!-- Navegación -->
+      <div class="layout__nav">
+        <nav class="nav__navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="#" class="navbar__link"> NOTICIAS </a>
+
+              <div class="navbar__submenu">
+                <!-- Una lista desplegable -->
+                <ul class="navbar__sublist">
+                  <li class="sublist__item">
+                    <a href="#" class="sublist__link">Videojuegos</a>
+                  </li>
+                  <li class="sublist__item">
+                    <a href="#" class="sublist__link">Novedades</a>
+                  </li>
+                  <li class="sublist__item">
+                    <a href="#" class="sublist__link">Otros</a>
+
+                    <ul class="sublist__dropdown">
+                      <li class="dropdown__item">
+                        <a href="#" class="dropdown__link">Cine</a>
+                      </li>
+                      <li class="dropdown__item">
+                        <a href="#" class="dropdown__link">Tecnologia</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- Carrusel imagenes -->
+                <div class="submenu__carousel">
+                  <ul class="carousel__menu carrousel__menu--small">
+                    <!-- Elemento del carrousel -->
+                    <li class="carousel__item">
+                      <!-- Imagen -->
+                      <img
+                        src="./assets/img/game-1.jpg"
+                        class="crousel__img"
+                        alt="imagen submenu"
+                      />
+                      <!-- Puntuacion -->
+                      <div class="carousel__container-rating">
+                        <div class="container-rating__circle">
+                          <div class="container-rating__border">
+                            <span class="container-rating__mark">9</span>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Titulo -->
+                      <div class="carousel__detail">
+                        <h3 class="carousel__title">
+                          <a href="#" class="carousel__link">
+                            ¿Battlefiel 2042 es el mejor de la saga?
+                          </a>
+                        </h3>
+                      </div>
+                    </li>
+
+                    <!-- Elemento del carrousel -->
+                    <li class="carousel__item">
+                      <!-- Imagen -->
+                      <img
+                        src="./assets/img/game-2.webp"
+                        class="crousel__img"
+                        alt="imagen submenu"
+                      />
+
+                      <!-- Titulo -->
+                      <div class="carousel__detail">
+                        <h3 class="carousel__title">
+                          <a href="#" class="carousel__link">
+                            ¿Elden Ring es el mejor juego del año?
+                          </a>
+                        </h3>
+                      </div>
+                    </li>
+
+                    <!-- Elemento del carrousel -->
+                    <li class="carousel__item">
+                      <!-- Imagen -->
+                      <img
+                        src="./assets/img/game-3.jpg"
+                        class="crousel__img"
+                        alt="imagen submenu"
+                      />
+
+                      <!-- Titulo -->
+                      <div class="carousel__detail">
+                        <h3 class="carousel__title">
+                          <a href="#" class="carousel__link">
+                            ¿The last of us 1 remake es mejor que el original?
+                          </a>
+                        </h3>
+                      </div>
+                    </li>
+
+                    <!-- Elemento del carrousel -->
+                    <li class="carousel__item">
+                      <!-- Imagen -->
+                      <img
+                        src="./assets/img/game-4.jpg"
+                        class="crousel__img"
+                        alt="imagen submenu"
+                      />
+
+                      <!-- Titulo -->
+                      <div class="carousel__detail">
+                        <h3 class="carousel__title">
+                          <a href="#" class="carousel__link">
+                            ¿Review de Dying Light 2?
+                          </a>
+                        </h3>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link"> ANALISIS </a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link"> JUEGOS </a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link"> CATEGORIAS </a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link"> RANKING </a>
+            </li>
+          </ul>
+          <form class="navbar__search"></form>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Pie de pagina -->
+    <footer class="footer"></footer>
+  </body>
+</html>
